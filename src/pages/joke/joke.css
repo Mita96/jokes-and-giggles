@@ -1,0 +1,58 @@
+.joke-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+span {
+    display: block;
+}
+
+.dad-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.dad-joke-component {
+    width: 400px;
+    height: 300px;
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-wrap: wrap;
+    font-style: italic;
+    line-height: 30px;
+    font-size: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+.dad-button {
+    width: 400px;
+    height: 40px;
+    background-color: rgb(255, 204, 109);
+    margin-top: 20px;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px black;
+    letter-spacing: 10px;
+    transition: box-shadow 0.9s;
+}
+
+
+.dad-button:active {
+    box-shadow: inset 0px 0px 4px 2px black;
+}

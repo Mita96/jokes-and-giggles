@@ -1,0 +1,44 @@
+.header-component {
+    width: 100%;
+    height: 50px;
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.nav-header-component {
+    display: flex;
+    gap: 400px;
+    justify-content: space-between;
+}
+
+.nav-header-component a {
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    transform: translateY(50%);
+    font-weight: 900;
+    border-bottom: none;
+    transition: border-bottom 0.1s;
+}
+
+.nav-header-component a:hover {
+    border-bottom: 4px solid whitesmoke;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-solid.fa-bars {
+    display: block;
+    font-size: 30px;
+}
+
+.list-container {
+    list-style-type: none;
+    width: 0px;
+    height: 0px;
+    background-color: lightskyblue;
+}

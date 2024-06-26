@@ -1,0 +1,49 @@
+.box-quote {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content-quote-quote-component {
+    border: black solid 8px;
+    width: 350px;
+    max-height: 500px;
+    border-radius: 10px;
+    padding: 0 15px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    background-color: white;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.button-quote-component {
+    width: 50%;
+    padding: 5px 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: orange;
+    font-weight: 900;
+    border: none;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.button-quote-component:active {
+    color: orange;
+    background-color: white;
+}
